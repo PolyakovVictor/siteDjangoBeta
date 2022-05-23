@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/public/loginForm.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/public/topNavPanel.css' %}">
+	<title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+	<div class="topNavPanel">
+		<nav>
+			<a href = "/signupForm">Signup</a>
+			<a href = "/loginForm">Login</a>
+			<a href = "#">Contact</a>
+            <a href = "/storeForm">Store</a>
+			<a href = "/">Main</a>
+		</nav>
+	</div>
+
+	{% block content %}{% endblock %}
+
+</body>
+</html>

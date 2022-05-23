@@ -1,0 +1,31 @@
+
+
+body{
+    height: 100vh;
+	background-color: #99FFFF;
+    background: url('background.jpg') transparent no-repeat;
+    /*background: url(/images/background.jpg) transparent no-repeat;*/
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+h1{
+	color: red;
+	position: relative;
+	
+}
+
+
+
+/* Анимированый background*/
+#stars {
+    height: 100vh;
+    background-size: cover;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
